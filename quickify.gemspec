@@ -11,11 +11,12 @@ Gem::Specification.new do |s|
   s.date = "2017-01-21"
   s.description = "Replicates common views for a controller".freeze
   s.email = "michaelcabaluna.developer@gmail.com".freeze
-  s.extra_rdoc_files = ["README.rdoc".freeze, "lib/quickify.rb".freeze]
-  s.files = ["Manifest".freeze, "README.rdoc".freeze, "Rakefile".freeze, "lib/quickify.rb".freeze, "quickify.gemspec".freeze]
+  s.extra_rdoc_files = ["README.md".freeze, "lib/quickify.rb".freeze]
+  s.files = ["Manifest".freeze, "README.md".freeze, "Rakefile".freeze, "lib/quickify.rb".freeze, "quickify.gemspec".freeze]
   s.homepage = "http://github.com/kel101/quickify".freeze
   s.rdoc_options = ["--line-numbers".freeze, "--title".freeze, "Quickify".freeze, "--main".freeze, "README.md".freeze]
   s.rubyforge_project = "quickify".freeze
   s.rubygems_version = "2.5.2".freeze
   s.summary = "Quickly replicate views and js configuration".freeze
+  s.license = 'MIT'
 end
